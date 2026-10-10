@@ -1,10 +1,10 @@
 ---
-name: learn-anki
+name: keep
 description: >
   Turn a finished teaching session into a spaced-repetition deck that defends
   the reasoning, not just the vocabulary. Builds an Anki course deck and lesson
   sub-deck from an alvar session/map via the Anki MCP tools. Use when the user
-  runs /learn-anki or /skill:learn-anki, or says make me flashcards, Anki deck,
+  runs /keep or /skill:keep, or says make me flashcards, Anki deck,
   ankify this, cards for this lesson, help me retain this, or asks to lock in
   material after a teach session.
 license: MIT

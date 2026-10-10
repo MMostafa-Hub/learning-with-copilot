@@ -91,8 +91,8 @@ will actually demand.
   nodes, **before** new material. This is where `known` is re-earned.
 - A miss here **demotes to `edge`** and the node re-enters teaching. Say this is expected and
   normal; it is the mechanism working, not a regression.
-- If `learn-anki` has shipped a deck, read lapse data before the opener and target the
-  lapsing nodes. See learn-anki's SKILL.md.
+- If `keep` has shipped a deck, read lapse data before the opener and target the
+  lapsing nodes. See keep's SKILL.md.
 
 Retrieval to criterion *spaced across sessions* — successive relearning — is the design with
 the strongest evidence for durable retention (Rawson & Dunlosky 2022). Notably, extra
@@ -168,7 +168,7 @@ low-confidence errors — the confidence/feedback mismatch drives attention and 
 a test right after the corrective feedback blocks the error from returning (Butler et al.).
 
 So on a confident miss: give the correction → **immediately re-ask in different words** →
-re-queue at Gate 2 → and flag the node for a `learn-anki` card. Do not just explain and move on.
+re-queue at Gate 2 → and flag the node for a `keep` card. Do not just explain and move on.
 
 ## Rule 4 — Calibrate to roughly 70–85% correct
 
@@ -247,7 +247,7 @@ When an answer is wrong, in this order:
 4. **Immediate re-ask in different words.** Same idea, different surface. Confirms the
    correction took rather than the sentence being echoed back.
 5. **Re-queue at Gate 2.** The node does not advance to `known` on this pass regardless.
-6. **Flag for `learn-anki`.** A missed item is a decay risk and deserves more card angles.
+6. **Flag for `keep`.** A missed item is a decay risk and deserves more card angles.
 
 Never reveal the answer at step 1. Never skip step 3 to save time — step 3 is where the
 learning is.
