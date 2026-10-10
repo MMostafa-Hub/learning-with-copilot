@@ -14,7 +14,7 @@ Agent skills for one-to-one tutoring, based on the **Alvar method** from Eero Al
 
 ## Install
 
-Copy the folders under `skills/` into your skills directory, e.g. `~/.claude/skills/`.
+Copy the folders under `skills/` into your skills directory, e.g. `~/.copilot/skills/`.
 
 ## Credits
 
