@@ -16,6 +16,13 @@ Agent skills for one-to-one tutoring, based on the **Alvar method** from Eero Al
 
 Copy the folders under `skills/` into your skills directory, e.g. `~/.copilot/skills/`.
 
+The `keep` skill also needs:
+
+- [Anki](https://apps.ankiweb.net/) — the spaced-repetition app the cards go into
+- An Anki MCP server, so the agent can create decks and notes in Anki:
+  - [Anki MCP add-on](https://ankiweb.net/shared/info/593632040) — the one `keep` was tested with
+  - [AnkiMCP](https://ankimcp.ai/) — an alternative Anki MCP server
+
 ## Credits
 
 - Method: Eero Alvar
